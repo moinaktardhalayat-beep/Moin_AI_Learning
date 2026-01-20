@@ -1,2 +1,44 @@
 started leaning Prompt enigneering.
-fdfdd
+Day: 20-Jan-2025 :
+My first prompt is for AI generate a prompt for todays signal.
+Prompt: act as a prompt engineer and generate a promt, which would give me entry and exit for BTCusd, XAUUSD and 3 forex pairs for today, ut should cionsider market news, current trend, and i would klin=e to exit position by 10 or max 11 PM ist.
+Output:Using your latest web search tools, analyze LIVE market data for January 20, 2026 (~11:45 AM IST). Provide day trading signals for:
+
+✅ FIXED: BTCUSD, XAUUSD  
+✅ DYNAMIC: Your top 3 forex pairs with HIGHEST momentum/volatility today (EURUSD, GBPUSD, USDJPY, AUDUSD, USDCAD, NZDUSD, USDCHF - pick best 3)
+
+MANDATORY PROCESS:
+1. Search "most volatile forex pairs today January 20 2026" + "highest momentum forex pairs"
+2. Select TOP 3 based on: ATR, news catalysts, technical breakouts
+3. Use CURRENT prices from web searches (search "latest [pair] price January 20 2026")
+
+FOCUS: MARKET PRICE ACTION (15M/1H candlesticks, S/R breaks, EMA20/50), MARKET SENTIMENT (news flow, COT), TODAY'S TREND.
+
+RULES:
+- Same-day trades: Entry after 12 PM IST, EXIT BY 10 PM IST maximum
+- 1 signal per pair: Long/Short/No Trade  
+- Risk: 0.5-1%, 1:2+ RR minimum
+- Exact entry/stop/target from price action
+
+OUTPUT EXACTLY THIS TABLE:
+
+| Pair | Current Price | Direction | Entry Trigger | Stop Loss | Target 1 (6PM IST) | Target 2 (10PM IST) | Reason (Price Action + Sentiment) |
+|------|---------------|-----------|---------------|-----------|---------------------|----------------------|-----------------------------------|
+
+Example:
+| NZDUSD | 0.6025 | Long | Break 0.6035 | 0.6000 | 0.6070 | 0.6100 | RBNZ news + EMA bounce |
+
+Search web NOW for latest prices, volatility, and news. Table output only.
+
+------------------------------------------------------------------------------------------
+then after using this prompt: I got these signals:
+| Pair   | Current Price | Direction | Entry Trigger | Stop Loss | Target 1 (6PM IST) | Target 2 (10PM IST) | Reason (Price Action + Sentiment)                                                              |
+| ------ | ------------- | --------- | ------------- | --------- | ------------------ | ------------------- | ---------------------------------------------------------------------------------------------- |
+| BTCUSD | 84370         | No Trade  | -             | -         | -                  | -                   | Limited live intraday data; neutral momentum amid crypto volatility indiatoday​                |
+| XAUUSD | 4664          | Long      | Break 4670    | 4640      | 4700               | 4720                | Bullish channel + rising trend, EMA bounce, positive gold sentiment on inflation twelvedata+1​ |
+| GBPUSD | 1.3420        | Long      | Break 1.3450  | 1.3390    | 1.3510             | 1.3570              | Upward forecast to 1.3675, support test + UK data catalyst ahead forex24+1​                    |
+| AUDUSD | 0.6700        | Long      | Break 0.6730  | 0.6660    | 0.6770             | 0.6820              | Range breakout upper, bullish commodity sentiment + risk-on instaforex+1​                      |
+| USDJPY | 158.10        | Short     | Break 157.80  | 158.50    | 157.20             | 156.50              | Bearish daily forecast, trade war fears weakening USD + Yen strength twelvedata​youtube​       |
+------------------------------------------------------------------------------------------
+will capture the Ouput, as I have entered the trade for XAUUSD and USDJPY.
+
